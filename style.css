@@ -1,0 +1,165 @@
+/* css reset */
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('img/bg.jpg');
+    height: 805px;
+}
+
+.left {
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+.left img {
+    width: 136px;
+    filter: invert(100%);
+}
+
+.left div {
+    line-height: 19px;
+    font-size: 26px;
+    text-align: center;
+}
+
+
+.mid {
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    /* border: 2px solid green; */
+}
+
+.right {
+    position: absolute;
+    right: 24px;
+    top: 25px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+
+}
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+    
+   
+}
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+}
+
+.container {
+    /* border: 2px solid white; */
+    margin: 66px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
+.statesselector{
+    font-size: 23px;
+    width: 200%;
+font-weight: 500;
+font-style: inherit;
+
+}
+body {margin:0;}
+
+.icon-bar {
+  width: 50%;
+  background-color:rgb(19, 17, 17);
+  overflow: auto;
+  margin: 20px auto;
+  
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+  transition: all 0.5s ease;
+}
+
+.icon-bar a:hover {
+  background-color: rgb(134, 155, 117);
+  
+}
+
+.active {
+  background-color: #434b4328;
+}
+.icon-bar2{
+    width: 10%;
+  background-color:rgb(19, 17, 17);
+  overflow: auto;
+  margin: 20px auto;
+  position: absolute;
+  right: 10px;
+  top: 2px;
+}
+.icon-bar2 a {
+  float: left;
+  width: 20%;
+  text-align: right;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+  transition: all 0.5s ease;
+  padding-left: 30px;
+}
+
+

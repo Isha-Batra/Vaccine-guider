@@ -1,0 +1,24 @@
+.login input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 400px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 1px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+body {
+    background-color: black;
+    font-family: 'Baloo Bhai', cursive;
+}
+.login {
+    border: 2px solid rgb(54, 50, 50);
+    width: 40%;
+    margin: 80px auto;
+    height: 350px;
+    border-radius: 10px;
+    background-color: rgb(186, 186, 235);
+    
+}
